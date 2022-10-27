@@ -1,0 +1,92 @@
+.App {
+    width: 100%;
+    height: 110vh;
+    padding-top: 10px;
+    background-color: #100028;
+    font-family: sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    height: 50px;
+    width: 100%;
+    margin: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo img {
+    height: 40px;
+}
+
+.container {
+    width: 400px;
+    height: 600px;
+    padding: 14px;
+    background-color: #99c9ff;
+    border-radius: 20px;
+    border: 5px solid white
+}
+
+.row {
+    margin: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button-container {
+    height: 83px;
+    display: flex;
+    flex: 1 1;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 38px;
+    background-color: #100028;
+    color: white;
+    border-radius: 25px;
+    border: 2px solid white;
+    margin: 4px;
+    cursor: pointer;
+    user-select: none;
+    transition: all 100ms;
+}
+
+.button-container:hover {
+    background-color: #500055;
+    transform: scale(0.9, 0.9);
+}
+
+.operator {
+    background-color: #004340;
+}
+
+.operator:hover {
+    background-color: #ff6600;
+}
+
+.clear-button {
+    height: 80px;
+    font-size: 1.6em;
+    display: flex;
+    flex: 1;
+    background-color: #ee9900;
+    margin-top: 8px;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color: white;
+    border-radius: 25px;
+    border: 2px solid white;
+    cursor: pointer;
+    user-select: none;
+}
+
+.clear-button:hover {
+    background-color: #ebb006;
+}
